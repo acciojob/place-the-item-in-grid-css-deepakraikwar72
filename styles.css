@@ -1,11 +1,14 @@
-.holder {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
-  width: 200px; /* Total width of the grid */
-  height: 200px; /* Total height of the grid */
+.holder{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: bisque;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .item{
     background-color: aqua;
