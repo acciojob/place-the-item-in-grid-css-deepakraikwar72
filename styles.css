@@ -1,9 +1,11 @@
-.holder{
-    display: grid;
-    grid-template-columns: repeat(2, 200px);
-    grid-template-rows: repeat(2, 200px);
-    width: 100vw;
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  width: 200px; /* Total width of the grid */
+  height: 200px; /* Total height of the grid */
 }
+
 
 .item{
     background-color: aqua;
